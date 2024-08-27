@@ -45,7 +45,3 @@ display(spark.read.csv("/mnt/dwarka1/demo/circuits.csv"))
 # COMMAND ----------
 
 display(dbutils.fs.mounts())
-
-# COMMAND ----------
-
-dbutils.fs.unmount('/mnt/dwarka1/demo')

@@ -43,3 +43,7 @@ mount_adls('dwarka1','presentation')
 # COMMAND ----------
 
 mount_adls('dwarka1','processed')
+
+# COMMAND ----------
+
+dbutils.fs.ls("/mnt/dwarka1/raw/")
